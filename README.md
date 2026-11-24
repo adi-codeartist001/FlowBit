@@ -170,36 +170,7 @@ npm run lint
 | Save | Builds a workflow object with nodes, edges, and a timestamp, logs it to the console, and displays a confirmation alert |
 | Clear All | Removes all nodes and edges and resets the node counter |
 
-These actions are currently frontend demonstrations. They do not call an API, persist workflows to a database, or execute backend jobs.
 
-## Roadmap
-
-The following are potential next steps, not features currently available in the repository:
-
-- [ ] Persist workflows locally and restore them after refresh
-- [ ] Define and validate a versioned workflow JSON schema
-- [ ] Add a backend API for workflow CRUD operations
-- [ ] Implement a real execution engine with node-level status and logs
-- [ ] Add node configuration panels and input validation
-- [ ] Add authentication and project/workspace management
-- [ ] Add tests for node creation, editing, connections, and workflow validation
-- [ ] Add deployment and environment documentation
-
-## Contributing
-
-Contributions and ideas are welcome.
-
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feat/your-change`
-3. Make your changes and test them locally.
-4. Commit with a clear message.
-5. Open a pull request describing the change.
-
-## License
-
-No license has been specified yet. Until a license is added to the repository, all rights remain with the copyright holder and reuse should not be assumed to be permitted.
-
----
 
 <div align="center">
 
